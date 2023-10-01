@@ -5,7 +5,10 @@ function App() {
   return (
     <div className="App">
       <h1>hello my day</h1>
-      <img src={cookie} alt="main" />
+      <img src={cookie} alt="main" className="cookie" />
+      <div>
+        <button className="btn-cookie">Open your luck</button>
+      </div>
     </div>
   )
 }
