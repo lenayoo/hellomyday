@@ -35,3 +35,12 @@ body {
   border: #ff7a59 solid 1px;
   background: #fff;
 }
+
+.text-cookie {
+  margin-top: 2em;
+  width: 30%;
+  padding: 1.5em;
+  height: auto;
+  background-color: grey;
+  border-radius: 4px;
+}
