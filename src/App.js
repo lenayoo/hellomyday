@@ -22,7 +22,7 @@ function App() {
           Open your luck
         </button>
       </div>
-      <div className="text-cookie">{todayFortune}</div>
+      {todayFortune && <div className="text-cookie">{todayFortune}</div>}
     </div>
   )
 }
