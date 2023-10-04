@@ -12,10 +12,9 @@ function App() {
     console.log(fortunes[randomIndex])
     return setTodayFortune(fortunes[randomIndex])
   }
-
   return (
     <div className="App">
-      <h1 className="header-text">hello my new world</h1>
+      <h1 className="header-text">😆🥠</h1>
       <img src={cookie} alt="main" className="cookie" />
       <div>
         <button className="btn-cookie" onClick={randomFortune}>
