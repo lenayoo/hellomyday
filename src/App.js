@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <h1 className="header-text">
-        Today is a day! Go on kid, You will find your mountain😆🥠
+        Today is a day! Go on kid! You will find your mountain😆🥠
       </h1>
       <img src={cookie} alt="main" className="cookie" />
       <div>
