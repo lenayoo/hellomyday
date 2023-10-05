@@ -14,7 +14,9 @@ function App() {
   }
   return (
     <div className="App">
-      <h1 className="header-text">😆🥠</h1>
+      <h1 className="header-text">
+        Today is a day! Go on kid, You will find your mountain😆🥠
+      </h1>
       <img src={cookie} alt="main" className="cookie" />
       <div>
         <button className="btn-cookie" onClick={randomFortune}>
