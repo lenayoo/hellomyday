@@ -20,7 +20,7 @@ function App() {
       <img src={cookie} alt="main" className="cookie" />
       <div>
         <button className="btn-cookie" onClick={randomFortune}>
-          Open today's luck!
+          Open today's luck!!
         </button>
       </div>
       {todayFortune && <div className="text-cookie">{todayFortune}</div>}
